@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/3D-Animated-Website-Backgrounds.webp');
+    height: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100vw;
+
+}
+
+main {
+    background-image: url(/digital-strategies.jpg);
+}
+
+.sidebar {
+    background-color: rgb(0, 255, 255);
+    width: 270px;
+    font-family: 'Salsa', cursive;
+    height: 100vw;
+    transition: transform 0.3 ease-in;
+
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    color: deeppinks;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: none;
+}
+
+.devInfo button {
+    text-transform: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.devInfo.devInfo.a {
+    text-transform: none;
+}
+
+.Hello {
+    color: greenyellow;
+    font-size: 50px;
+    font-family: 'Salsa', cursive;
+    line-height: 60px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(251, 0, 255);
+    font-family: 'Salsa', cursive;
+    line-height: 60px;
+}
+
+
+.about {
+    font-size: 35px;
+    padding: 2px;
+    font-family: 'Salsa', cursive;
+    color: rgb(255, 0, 255);
+    line-height: 70px;
+
+}
+
+
+.moreabout {
+    color: white;
+    font-size: 25px;
+    font-family: 'Salsa', cursive;
+    line-height: 45px;
+}
+
+.buttons {
+    margin-top: 34px;
+    color: red;
+    font-size: 25px;
+    height: 25px;
+
+}
+
+.buttons {
+    font-size: 25px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: red;
+    font-weight: bold;
+    font-size: 4vw;
+    margin: 0 20vw;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: white;
+    background-color: greenyellow;
+}
+
+
+.devPic img {
+    height: 58vh;
+}
+
+.Contactform {
+    color: white;
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Salsa', cursive;
+
+}
+
+.Contactform h1 {
+    font-family: 'Salsa', cursive;
+}
+
+.Contactform h1 {
+    font-family: 'Salsa', cursive;
+    text-align: center;
+}
+
+.Contactform form div {
+    font-family: 'Salsa', cursive;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contactform form div input {
+    width: 26vw;
+    border-radius: 0%;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.btn {
+    width: 26vw;
+    border-radius: 0%;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+
+
+#isclient {
+    text-align: left;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    text-align: left;
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+.classblogcontainer {
+    padding: 30px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    color: rgb(166, 0, 249);
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    color: rgb(166, 0, 249);
+    margin-left: 155px;
+}
